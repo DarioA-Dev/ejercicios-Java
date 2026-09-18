@@ -5,8 +5,8 @@ Repositorio con las tareas de cada asignatura, organizadas **una rama por asigna
 ## Ramas disponibles
 
 - `java` — ejercicios y prácticas de Java (`entorno/`, `programacion/`).
+- `lenguaje-marcas` — ejercicios de lenguajes de marcas (`lenguje_de_marca/`).
 
 ## Ramas pendientes
 
-- `lenguaje-marcas`
 - `tcl-ii`
