@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #0063a5;
+  --secondary-color: #2ecc71;
+  --font-stack: 'Helvetica Neue', sans-serif;
+}
+
+body {
+    font-family: var(--font-stack);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.img1style {
+    margin-left: 12px;
+    align-items: center; 
+    height: 256px; 
+    border-radius: 45px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+/*.img1style:hover {
+    background-color: transparent;
+    border-radius: 0px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.747);
+    transition: all 0.3s ease-in-out;
+}*/
+
+
+.img1style:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.747);
+}
