@@ -1,16 +1,23 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("mundo de prueba");
-        System.out.println("Vamos a instanciar al personaje");
-        Personaje presonajeprincipal = new Personaje(100, 50, 2000, "Paco");
+        System.out.println("MUNDO DE PRUEBA");
+        System.out.println("Vamos a instanciar un personaje");
+        Personaje personajeprincipal = new Personaje(100, 50, 2000, "Anastasio");
 
-        int showLife=0;
-        showLife = presonajeprincipal.getLife();
-        System.out.println(showLife);
+        int mostrarvida=0;
+        mostrarvida = personajeprincipal.getVida();
+        System.out.println(mostrarvida);
 
-        presonajeprincipal.setName("Paco");
-        System.out.println("El nombre del personaje es"+ presonajeprincipal.getName());
+        personajeprincipal.setNombre("Perico Anastasio");
+        System.out.println("El nombre del personaje es..."+ personajeprincipal.getNombre());
+
+        Mago personajesecundario = new Mago(50, 50, 2000, "Gandalf");
+
+        personajesecundario.atacar(personajeprincipal);
+
+        mostrarvida = personajeprincipal.getVida();
+        System.out.println("La vida de "+ personajeprincipal.getNombre()+ " es: "+ mostrarvida);
     }
 
 }

@@ -1,31 +1,36 @@
 public class Personaje {
-//atributos
-    private int life;
-    private int strength;
-    private int speed;
-    private String name;
-//metodo constructor
-    public Personaje(int life, int strength, int speed, String name){
-        this.life = life;
-        this.strength = strength;
-        this.speed = speed;
-        this.name = name;
+    //atributos
+    private int vida;
+    private int fuerza;
+    private int velocidad;
+    private String nombre;
+
+    //método constructor
+    public Personaje(int vida, int fuerza, int velocidad, String nombre){
+        this.vida = vida;
+        this.fuerza = fuerza;
+        this.velocidad = velocidad;
+        this.nombre = nombre;
     }
 
-    public int getLife(){
-        return life;
+    public int getVida(){
+        return vida;
     }
 
-    public void setLife(int x){
-        life = x;
+    public void setVida(int x){
+        vida = x;
     }
 
-    public String getName(){
-        return name;
+    public String getNombre(){
+        return nombre;
     }
 
-    public void setName(String x){
-        name = x;
+    public void setNombre(String x){
+        nombre = x;
+    }
+
+    public void atacar(Personaje objetivo){
+        objetivo.vida = objetivo.vida - fuerza;
     }
 
 }
