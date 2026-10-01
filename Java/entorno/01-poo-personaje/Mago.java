@@ -1,18 +1,30 @@
 public class Mago extends Personaje {
 
-    //atributos especificos de la clase mago
+    //atributos específicos de la clase mago
     private int mana;
 
-    public Mago(int vida, int fuerza, int velocidad, String nombre) {
+    //CONSTRUCTOR
+    public Mago(int vida, int fuerza, int velocidad, String nombre, int mana) {
         super(vida, fuerza, velocidad, nombre);
-        this.mana = 30;
+        this.mana = mana;
     }
 
+    public int getMana(){
+        return mana;
+    }
+    public void setMana(int x){
+        mana = x;
+    }
+
+    //Ejemplo de polimorfismo (sobreescribimos el método heredado de la clase Personaje
     @Override
-    public void atacar(Personaje objetivo) {
+    public void atacar(Personaje objetivo){
         int varVida = objetivo.getVida();
         varVida = varVida - mana;
         objetivo.setVida(varVida);
+
+        objetivo.velocidad = objetivo.velocidad - mana;
+
     }
 
 }

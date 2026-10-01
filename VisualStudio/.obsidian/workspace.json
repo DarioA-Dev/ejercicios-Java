@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "b3e0c7dbe04661a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1809b00d67811662",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bae744208b8be92",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c8168e07f4d58f73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abc4f2fa65082176",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ba5cf778a29a2bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "86fc7abc7abe451c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d1abdae2e100e8e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "8ab4c04f6aadf5a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "8db496981684e0d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "54c84fd585e60eb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "936b06fbdcccf855",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aad02e2f69bfbb59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CLAUDE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "9690811e0de66fdf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CLAUDE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "a2dd03cbaab44ea1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4f37574474ee1a26",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "ccfd79bcc5d6a750",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CLAUDE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "abc4f2fa65082176",
+  "lastOpenFiles": [
+    "03 Recursos",
+    "02 Plantillas/Plantilla - Repaso examen.md",
+    "02 Plantillas/Plantilla - Ejercicio.md",
+    "02 Plantillas/Plantilla - Apunte de clase.md",
+    "02 Plantillas",
+    "00 Inbox/Inbox.md",
+    "00 Inbox/Inbox.md.tmp.21700.8b68bd4b5f97",
+    "00 Inbox",
+    "01 Asignaturas/TCL-II/TCL-II.md",
+    "01 Asignaturas/TCL-II",
+    "01 Asignaturas/Lenguaje de Marcas/Lenguaje de Marcas.md",
+    "01 Asignaturas/Lenguaje de Marcas/Lenguaje de Marcas.md.tmp.21700.aa577bfc1484",
+    "01 Asignaturas/Lenguaje de Marcas",
+    "01 Asignaturas/Java/Java.md",
+    "01 Asignaturas/Java",
+    "01 Asignaturas",
+    "Indice.md",
+    "Indice.md.tmp.21700.168bf35fcc06",
+    "CLAUDE.md",
+    "CLAUDE.md.tmp.21700.0d056f210188",
+    "Bienvenido.md"
+  ]
+}
