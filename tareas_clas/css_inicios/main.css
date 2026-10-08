@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: rgb(129, 69, 0);
+  margin: 1rem;
+}
+
+a {
+  margin-left: 1rem;
+  color: rgb(129, 69, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
