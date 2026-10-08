@@ -4,7 +4,7 @@ public class temperaturas {
 
     public static void main(String[] args) {
         double temperature;
-        int calor = 0;
+        int highTemperature = 0;
 
         Scanner sc = new Scanner(System.in);
 
@@ -14,7 +14,7 @@ public class temperaturas {
 
             if (temperature != 0) {
                 if (temperature > 30) {
-                    calor++;
+                    highTemperature++;
                     System.out.println("Hace calor!");
                 } else {
                     System.out.println("Hace frío");
@@ -22,7 +22,7 @@ public class temperaturas {
             }
         } while (temperature != 0);
 
-        System.out.println("Ha hecho calor " + calor + " veces");
+        System.out.println("Ha hecho calor " + highTemperature + " veces");
         sc.close();
     }
 }
