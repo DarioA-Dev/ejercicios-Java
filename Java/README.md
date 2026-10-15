@@ -14,3 +14,17 @@ cd 04-poo-personaje
 javac *.java
 java Main
 ```
+
+## Entorno VS Code (proyectos aislados, como NetBeans)
+
+Cada carpeta con `.java` es un proyecto independiente gracias a su `.project` + `.classpath`
+(el equivalente a `nbproject/`). Así dos carpetas pueden tener una clase `Main` sin conflictos.
+
+- **Proyecto nuevo**: `Ctrl+Shift+P` → *Tasks: Run Task* → *Java: nuevo proyecto*
+  (o `.\nuevo-proyecto.ps1 programacion\13-mi-ejercicio`). Crea la carpeta, los metadatos y un `Main.java`.
+- **Carpeta que ya tenías suelta**: tarea *Java: armar carpetas sin proyecto*.
+- Si el proyecto no aparece: `Ctrl+Shift+P` → *Java: Import Java Projects into Workspace*.
+- Si ves errores raros tras cambios de configuración: *Java: Clean Java Language Server Workspace*.
+- Usa **un solo** servidor de Java: `redhat.java` (Extension Pack for Java). No instales a la vez
+  `oracle.oracle-java` ni `apache-netbeans-java`: se pisan y generan errores falsos.
+- Los ficheros no llevan `package` (el nombre de carpeta como package, p. ej. `09-repaso-for`, es inválido).

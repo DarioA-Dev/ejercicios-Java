@@ -1,9 +1,20 @@
 {
 	"folders": [
-		{ "path": "01-tipos-de-datos-primitivos" },
-		{ "path": "02-condicionales-y-teclado" },
-		{ "path": "03-banco-de-pruebas" },
-		{ "path": "04-poo-personaje" }
+		{ "path": "entorno/01-poo-personaje" },
+		{ "path": "programacion/01-tipos-de-datos-primitivos" },
+		{ "path": "programacion/02-condicionales-y-teclado" },
+		{ "path": "programacion/03-banco-de-pruebas" },
+		{ "path": "programacion/04-mas-if-else" },
+		{ "path": "programacion/05-descuento-compra" },
+		{ "path": "programacion/06-notas-examenes" },
+		{ "path": "programacion/07-altura-y-edad" },
+		{ "path": "programacion/08-bucles-for" },
+		{ "path": "programacion/09-repaso-for" },
+		{ "path": "programacion/010-case" },
+		{ "path": "programacion/011-while" },
+		{ "path": "programacion/012-acomulador" },
+		{ "path": "programacion/TAREAS-REPASO" },
+		{ "path": "programacion/tareas-propias" }
 	],
 	"settings": {
 		"java.configuration.runtimes": [

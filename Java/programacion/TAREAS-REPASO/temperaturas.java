@@ -16,7 +16,8 @@ public class temperaturas {
                 if (temperature > 30) {
                     highTemperature++;
                     System.out.println("Hace calor!");
-                } else {
+                }
+                else {
                     System.out.println("Hace frío");
                 }
             }
