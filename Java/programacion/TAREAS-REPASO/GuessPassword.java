@@ -2,22 +2,22 @@ import java.util.Scanner;
 
 public class GuessPassword {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Establece un usuario:");
-        String username = scanner.next();
+        String username = sc.next();
 
         System.out.println("\nEstablece una contraseña:");
-        int password = scanner.nextInt();
+        int password = sc.nextInt();
 
         boolean isAuthenticated = false;
 
         do {
             System.out.println("\nIntroduce el usuario:");
-            String inputUsername = scanner.next();
+            String inputUsername = sc.next();
 
             System.out.println("Introduce la contraseña:");
-            int inputPassword = scanner.nextInt();
+            int inputPassword = sc.nextInt();
 
             if (!username.equalsIgnoreCase(inputUsername) || password != inputPassword) {
                 System.out.println("Credenciales incorrectas. Inténtalo de nuevo.");
@@ -27,6 +27,6 @@ public class GuessPassword {
             }
         } while (!isAuthenticated);
 
-        scanner.close();
+        sc.close();
     }
 }
