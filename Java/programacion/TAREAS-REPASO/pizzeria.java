@@ -22,8 +22,51 @@ public class pizzeria {
             option = sc.nextInt();
 
             switch (option) {
+                // pizza pequena
                 case 1:
+                    System.out.println("Cuantas pizzas quieres?: ");
+                    amount = sc.nextInt();
+
+                    if (amount <= 0) {
+                        System.out.println("La cantidad debe ser mayor que 0, introduce de nuevo: ");
+                        amount = sc.nextInt();
+                    }
+
+                    price = 8 * amount;
+                    small = small + amount;
+
+                    if (amount >= 5) {
+                        price = price - price * 0.10;
+                        System.out.println("Descuento del 10% aplicado");
+                    }
+
+                    System.out.println("El pedido cuesta " + price + " lereles");
+                    total = total + price;
+                    orders++;
+                    break;
+                // pizza mediana
                 case 2:
+                    System.out.println("Cuantas pizzas quieres?: ");
+                    amount = sc.nextInt();
+
+                    if (amount <= 0) {
+                        System.out.println("La cantidad debe ser mayor que 0, introduce de nuevo: ");
+                        amount = sc.nextInt();
+                    }
+
+                    price = 11 * amount;
+                    medium = medium + amount;
+
+                    if (amount >= 5) {
+                        price = price - price * 0.10;
+                        System.out.println("Descuento del 10% aplicado");
+                    }
+
+                    System.out.println("El pedido cuesta " + price + " lereles");
+                    total = total + price;
+                    orders++;
+                    break;
+                // pizza familiar
                 case 3:
                     System.out.println("Cuantas pizzas quieres?: ");
                     amount = sc.nextInt();
@@ -33,29 +76,23 @@ public class pizzeria {
                         amount = sc.nextInt();
                     }
 
-                    if (option == 1) {
-                        price = 8 * amount;
-                        small = small + amount;
-                    } else if (option == 2) {
-                        price = 11 * amount;
-                        medium = medium + amount;
-                    } else {
-                        price = 15 * amount;
-                        family = family + amount;
-                    }
+                    price = 15 * amount;
+                    family = family + amount;
 
                     if (amount >= 5) {
                         price = price - price * 0.10;
                         System.out.println("Descuento del 10% aplicado");
                     }
 
-                    System.out.println("El pedido cuesta " + price + " euros");
+                    System.out.println("El pedido cuesta " + price + " lereles");
                     total = total + price;
                     orders++;
                     break;
+                // salir
                 case 0:
                     System.out.println("Fin del programa");
                     break;
+                // cualquier otra opcion
                 default:
                     System.out.println("Opcion no valida");
             }
@@ -65,7 +102,7 @@ public class pizzeria {
         System.out.println("Pizzas medianas vendidas: " + medium);
         System.out.println("Pizzas familiares vendidas: " + family);
         System.out.println("Numero de pedidos: " + orders);
-        System.out.println("Recaudacion total: " + total + " euros");
+        System.out.println("Recaudacion total: " + total + " lereles");
 
         sc.close();
     }
