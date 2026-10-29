@@ -92,9 +92,6 @@ public class pizzeria {
                 case 0:
                     System.out.println("Fin del programa");
                     break;
-                // cualquier otra opcion
-                default:
-                    System.out.println("Opcion no valida");
             }
         } while (option != 0);
 
