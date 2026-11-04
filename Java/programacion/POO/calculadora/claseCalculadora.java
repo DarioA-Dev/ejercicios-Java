@@ -24,9 +24,13 @@ public class claseCalculadora {
         Scanner scanner = new Scanner(System.in);
         claseCalculadora sc = new claseCalculadora();
 
+        System.out.print("Introduce el primer número: ");
+        double resultado = scanner.nextDouble();
+
         int opcion;
 
         do {
+            System.out.println("\nResultado actual: " + resultado);
             System.out.println("1. Sumar");
             System.out.println("2. Restar");
             System.out.println("3. Multiplicar");
@@ -35,39 +39,33 @@ public class claseCalculadora {
             System.out.print("Elige una opción: ");
             opcion = scanner.nextInt();
 
-            double num1 = 0;
-            double num2 = 0;
-
             if (opcion >= 1 && opcion <= 4) {
-                System.out.print("Introduce el primer número: ");
-                num1 = scanner.nextDouble();
-                System.out.print("Introduce el segundo número: ");
-                num2 = scanner.nextDouble();
-            }
+                System.out.print("Introduce el siguiente número: ");
+                double num = scanner.nextDouble();
 
-            switch (opcion) {
-                case 1:
-                    System.out.println("Resultado: " + sc.sumar(num1, num2));
-                    break;
-                case 2:
-                    System.out.println("Resultado: " + sc.restar(num1, num2));
-                    break;
-                case 3:
-                    System.out.println("Resultado: " + sc.multiplicar(num1, num2));
-                    break;
-                case 4:
-                    if (num2 == 0) {
-                        System.out.println("Error: No se puede dividir entre cero.");
-                    } else {
-                        System.out.println("Resultado: " + sc.dividir(num1, num2));
-                    }
-                    break;
-                case 0:
-                    System.out.println("Saliendo de la calculadora...");
-                    break;
-                default:
-                    System.out.println("Opción no válida. Por favor, introduce un número del 0 al 4.");
-                    break;
+                switch (opcion) {
+                    case 1:
+                        resultado = sc.sumar(resultado, num);
+                        break;
+                    case 2:
+                        resultado = sc.restar(resultado, num);
+                        break;
+                    case 3:
+                        resultado = sc.multiplicar(resultado, num);
+                        break;
+                    case 4:
+                        if (num == 0) {
+                            System.out.println("Error: No se puede dividir entre cero.");
+                        } else {
+                            resultado = sc.dividir(resultado, num);
+                        }
+                        break;
+                }
+            } else if (opcion == 0) {
+                System.out.println("\nResultado final: " + resultado);
+                System.out.println("Saliendo de la calculadora...");
+            } else {
+                System.out.println("Opción no válida.");
             }
 
         } while (opcion != 0);
