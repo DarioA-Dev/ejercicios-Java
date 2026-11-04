@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,17 +10,91 @@ body {
   background-color: antiquewhite;
 }
 
-h1 {
+.h1-inicio {
+  text-align: center;
   color: rgb(129, 69, 0);
   margin: 1rem;
+  cursor: pointer;
+}
+
+.h1-inicio:hover {
+  color: rgb(0, 0, 0);
+  transition: ease-in-out 0.3s;
+}
+
+.p-mod1 {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  margin: 1rem;
+  cursor: crosshair;
+  font-size: 20px;
+  margin: 0px
+}
+
+.p-mod2 {
+  text-align: center;
+  color: rgb(51, 255, 0);
+  margin: 1rem;
+  cursor: crosshair;
+  font-size: 20px;
+  margin: 0px
+}
+
+.p-mod3 {
+  text-align: center;
+  color: rgb(47, 0, 255);
+  margin: 1rem;
+  cursor: crosshair;
+  font-size: 20px;
+  margin: 0px
+}
+
+.p-mod4 {
+  text-align: center;
+  color: rgb(255, 0, 212);
+  margin: 1rem;
+  cursor: crosshair;
+  font-size: 20px;
+  margin: 0px;
 }
 
 a {
-  margin-left: 1rem;
+  margin-left: 2rem;
   color: rgb(129, 69, 0);
   text-decoration: none;
+  font-size: 21px;
 }
 
 a:hover {
+  color: rgb(168, 90, 0);
   text-decoration: underline;
+  font-weight: 900;
+  transition: all 0.3s ease-in-out;
+}
+
+#parrafo-especial {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 1rem;
+  cursor: crosshair;
+  font-size: 20px;
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Divs, paddings y margins*/
+.padre {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+}
+.hijo {
+  background-color: lightcoral;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 4px;
 }
