@@ -44,16 +44,16 @@ asignatura: Java
 tema: Programación orientada a objetos
 fecha: 2026-09-23
 tags: [apunte]
-relacionado_con: "[[../../Java/04-poo-personaje]]"  # ruta relativa al código, si aplica
+relacionado_con: "[[../../Java/entorno/01-poo-personaje]]"  # ruta relativa al código, si aplica
 ---
 ```
 
 - `asignatura`: debe coincidir con el nombre de carpeta en `01 Asignaturas/`.
 - `relacionado_con`: si el apunte documenta un ejercicio de código, enlaza (o al
   menos referencia en texto) la ruta real del ejercicio en el repo, p. ej.
-  `../Java/04-poo-personaje/`. Obsidian no puede enlazar fuera del vault con
+  `../Java/entorno/01-poo-personaje/`. Obsidian no puede enlazar fuera del vault con
   `[[wikilink]]`, así que usa una ruta relativa en texto o un enlace Markdown:
-  `[04-poo-personaje](../../Java/04-poo-personaje/Main.java)`.
+  `[01-poo-personaje](../../Java/entorno/01-poo-personaje/Main.java)`.
 
 ## Plantillas disponibles
 
