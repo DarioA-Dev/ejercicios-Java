@@ -1,3 +1,15 @@
+/*
+ * ACCESO
+ *
+ * Sistema de acceso con bloqueo
+ * Desarrolla un programa que solicite un usuario y una contraseña.
+ * El usuario tendrá un máximo de 3 intentos para introducir correctamente ambos datos.
+ * - Si los dos datos son correctos, mostrará un mensaje de bienvenida.
+ * - Si alguno es incorrecto, informará del número de intentos restantes.
+ * - Si agota los intentos, bloqueará el acceso.
+ * - El programa debe terminar tanto si el acceso es correcto como si se produce el bloqueo.
+ */
+
 import java.util.Scanner;
 
 public class SistemaAcceso {

@@ -1,3 +1,21 @@
+/*
+ * LECTURA
+ *
+ * Libro – Control de lectura
+ * Enunciado:
+ * Crea una clase Libro con:
+ * 1. Título.
+ * 2. Autor.
+ * 3. Número de páginas.
+ * 4. Páginas leídas.
+ * Métodos:
+ * 1. Leer una cantidad de páginas.
+ * 2. Calcular el porcentaje leído.
+ * 3. Comprobar si está terminado.
+ * 4. Reiniciar la lectura.
+ * 5. Comparar dos libros por número de páginas.
+ */
+
 public class Libro {
     private String title;
     private String author;

@@ -1,3 +1,10 @@
+/*
+ * CONTAR CIFRAS
+ *
+ * Contar las cifras de un número
+ * Pide un número entero positivo y calcula cuántas cifras contiene. Por ejemplo, el número 58342 tiene cinco cifras.
+ */
+
 import java.util.Scanner;
 
 public class ContarCifras {

@@ -1,3 +1,23 @@
+/*
+ * ARRAYS
+ *
+ * 1.-Mostrar los elementos
+ * Crea un array con 5 números y muestra todos sus elementos
+ * por pantalla.
+ * 2.- Mostrar los elementos alrevés
+ * Crea un array con 5 números y muestra todos sus elementos por pantalla del
+ * último al primero.
+ * 3. Sumar los elementos
+ * Crea un array de 5 números y calcula la suma de todos ellos.
+ * 4. Encontrar el número menor
+ * Dado un array, encuentra cuál es el número más pequeño.
+ * 5. Buscar un número
+ * Crea un programa que compruebe si el número 7 está dentro
+ * del array.
+ * 6. Calcular la media
+ * Calcula la media de todos los números de un array.
+ */
+
 public class EjerciciosArrays {
     public static void main(String[] args) {
 

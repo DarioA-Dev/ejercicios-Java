@@ -1,3 +1,13 @@
+/*
+ * ADIVINAR NÚMERO
+ *
+ * Crea un juego en el que el programa tenga un número secreto, por ejemplo, el 7.
+ * - El usuario deberá introducir números hasta acertarlo.
+ * - Si el número introducido es menor que el secreto, mostrará El número secreto es mayor.
+ * - Si es mayor, mostrará El número secreto es menor.
+ * - Cuando acierte, mostrará ¡Enhorabuena, has acertado!.
+ */
+
 import java.util.Scanner;
 
 public class AdivinarNumero {

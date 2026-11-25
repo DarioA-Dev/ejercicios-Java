@@ -1,3 +1,9 @@
+/*
+ * CALCULADORA
+ *
+ * Enunciado original no disponible: la tarea de Teams no tiene instrucciones escritas.
+ */
+
 public class Calculadora {
 
     public double sumar(double a, double b) {

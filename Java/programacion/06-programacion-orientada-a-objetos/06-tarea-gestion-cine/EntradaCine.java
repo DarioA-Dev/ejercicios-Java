@@ -1,3 +1,21 @@
+/*
+ * GESTIÓN CINE
+ *
+ * Gestión de entradas de cine
+ * Crea una clase EntradaCine con:
+ * 1. pelicula: nombre de la película.
+ * 2. precio: precio de la entrada.
+ * 3. totalEntradas: variable estática.
+ * 4. totalEntradasnoestatica
+ * 5. recaudacionTotal: variable estática.
+ * Implementa:
+ * 1. Un constructor que registre una nueva entrada.
+ * 2. Un método vender( int unidades)
+ * 3. Un método mostrarEntrada().
+ * 4. Un método estático mostrarRecaudacion().
+ * 5. Un método estático mostrarTotalEntradas().
+ */
+
 public class EntradaCine {
     private String pelicula;
     private double precio;

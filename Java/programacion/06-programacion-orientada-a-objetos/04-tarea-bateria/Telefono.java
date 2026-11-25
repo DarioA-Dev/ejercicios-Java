@@ -1,3 +1,18 @@
+/*
+ * BATERIA
+ *
+ * 7. Teléfono móvil
+ * Crea una clase Telefono.
+ * Atributos:
+ * 1. marca
+ * 2. modelo
+ * 3. bateria
+ * Métodos:
+ * 1. llamar(): reduce la batería en 5.
+ * 2. cargar(): aumenta la batería en 10.
+ * 3. mostrarBateria(): muestra el porcentaje de batería.
+ */
+
 public class Telefono {
     private String brand;
     private String model;

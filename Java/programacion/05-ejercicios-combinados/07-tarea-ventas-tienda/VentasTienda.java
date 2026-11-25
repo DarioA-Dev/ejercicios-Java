@@ -1,3 +1,10 @@
+/*
+ * VENTAS TIENDA
+ *
+ * Control de ventas de una tienda
+ * Enunciado: una tienda registra las ventas de 5 productos. Para cada producto, se introduce su precio y se calcula el total vendido, el precio medio y el número de productos que cuestan más de 50 €.
+ */
+
 import java.util.Scanner;
 
 public class VentasTienda {

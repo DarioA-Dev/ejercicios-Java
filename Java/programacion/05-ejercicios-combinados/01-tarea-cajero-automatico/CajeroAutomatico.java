@@ -1,3 +1,23 @@
+/*
+ * TAREA CAJERO AUTOMÁTICO
+ *
+ * Desarrolla un programa en Java que simule el funcionamiento de un cajero automático.
+ * El programa comenzará con un saldo inicial de 1000 € y deberá mostrar un menú con las siguientes opciones:
+ * ----- CAJERO AUTOMÁTICO -----
+ *
+ * 1. Consultar saldo
+ * 2. Ingresar dinero
+ * 3. Sacar dinero
+ * 4. Salir
+ * El usuario deberá elegir una opción y el programa realizará la operación correspondiente.
+ *         Opción 1: Mostrar el saldo disponible.
+ *         Opción 2: Pedir al usuario una cantidad de dinero e ingresarla en la cuenta.
+ *         Opción 3: Pedir una cantidad de dinero y retirarla del saldo. Si la cantidad es superior al saldo disponible, deberá mostrar un mensaje indicando que no hay suficiente dinero.
+ *         Opción 4: Finalizar el programa mostrando un mensaje de despedida.
+ *         Si el usuario introduce una opción diferente de 1, 2, 3 o 4, deberá mostrar "Opción incorrecta".
+ * El menú deberá aparecer repetidamente después de cada operación, utilizando un bucle while, hasta que el usuario seleccione la opción 4.
+ */
+
 import java.util.Scanner;
 
 public class CajeroAutomatico {

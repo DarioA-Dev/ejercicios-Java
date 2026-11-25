@@ -1,3 +1,9 @@
+/*
+ * MENÚ RESTAURANTE
+ *
+ * Mandar el menú restaurante con un switch.
+ */
+
 import java.util.Scanner;
 
 public class Restaurante {

@@ -1,3 +1,9 @@
+/*
+ * CALCULADORA
+ *
+ * Enunciado original no disponible: la tarea de Teams no tiene instrucciones escritas.
+ */
+
 import java.util.Scanner;
 
 public class MenuCalculadora {

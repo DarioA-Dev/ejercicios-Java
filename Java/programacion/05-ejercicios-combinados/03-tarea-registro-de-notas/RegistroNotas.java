@@ -1,3 +1,15 @@
+/*
+ * REGISTRO DE NOTAS
+ *
+ * Pide las notas de varios alumnos utilizando un while.
+ * El programa terminará cuando el usuario introduzca una nota negativa.
+ * Al finalizar, debe mostrar:
+ * - Número de alumnos.
+ * - Suma de todas las notas.
+ * - Nota media.
+ * - Cuántos alumnos han aprobado.
+ */
+
 import java.util.Scanner;
 
 public class RegistroNotas {

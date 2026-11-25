@@ -1,3 +1,24 @@
+/*
+ * REGISTRO VISITAS
+ *
+ * Registro de visitas
+ * Crea una clase PaginaWeb con:
+ * 1. nombreUsuario: variable de instancia.
+ * 2. dni
+ * 3. visitasTotales: variable estática.
+ * 4. visitasTot que no es estática.
+ * Cada vez que se cree un objeto PaginaWeb, el contador de visitas debe aumentar en uno.
+ * Implementa:
+ * 1. Un constructor que reciba los datos del usuario.
+ * 2. Un método estático mostrarVisitas().
+ * 3. Un método mostrarUsuario().
+ * En el main:
+ * 1. Crea cinco objetos.
+ * 2. Muestra el nombre de cada usuario.
+ * 3. Consulta el número total de visitas.
+ * 4. Crea tres objetos más y vuelve a consultar el contador.
+ */
+
 public class PaginaWeb {
 
     private String nombreUsuario;

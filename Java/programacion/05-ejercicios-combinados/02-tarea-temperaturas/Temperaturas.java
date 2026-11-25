@@ -1,3 +1,20 @@
+/*
+ * TEMPERATURAS
+ *
+ * 25. Temperaturas
+ * Pide temperaturas al usuario y calcula cuántas han sido superiores a 30 grados.
+ * El programa terminará cuando introduzca  0
+ *
+ * Ejemplo:
+ * 40
+ * 50
+ * 60
+ *
+ * El mensaje final de salida que deberá mostrar el programa será tal como:
+ *
+ * Las temperaturas superiores a 30 grados han sido 3
+ */
+
 import java.util.Scanner;
 
 public class Temperaturas {

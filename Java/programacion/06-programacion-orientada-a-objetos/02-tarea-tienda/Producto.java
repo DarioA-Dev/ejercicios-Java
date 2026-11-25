@@ -1,3 +1,17 @@
+/*
+ * TIENDA
+ *
+ * 7. Tienda – Gestión de inventario
+ * Enunciado:
+ * Crea una clase Producto:
+ * 1. Código, nombre, precio y stock.
+ * 2. Vender productos.
+ * 3. Reponer productos.
+ * 4. Calcular el valor total del inventario.
+ * 5. Cambiar el precio.
+ * 6. Mostrar información.
+ */
+
 public class Producto {
     private String code;
     private String name;

@@ -1,3 +1,19 @@
+/*
+ * PIZZERIA
+ *
+ * Gestión de pedidos de una pizzería
+ * Enunciado: una pizzería ofrece tres tamaños de pizza:
+ * Tamaño | Precio
+ * Pequeña | 8 €
+ * Mediana | 11 €
+ * Familiar | 15 €
+ * El programa mostrará un menú repetidamente y permitirá registrar varios pedidos. Para cada pedido, el usuario seleccionará el tamaño e indicará cuántas pizzas quiere.
+ * Condiciones:
+ * - No se permiten cantidades iguales o inferiores a cero.
+ * - Si el pedido contiene 5 pizzas o más, se aplica un descuento del 10 %.
+ * - Al terminar, se mostrarán las pizzas vendidas de cada tamaño, el número de pedidos y la recaudación total.
+ */
+
 import java.util.Scanner;
 
 public class Pizzeria {
