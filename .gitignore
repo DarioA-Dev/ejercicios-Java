@@ -6,8 +6,5 @@ Java/**/bin/
 Java/**/out/
 Java/oracleJdk-*/
 
-# Proyectos independientes
-El-nexo-COMMIT/
-
 # Obsidian: estado de la interfaz (cambia cada vez que se abre el vault)
 VisualStudio/.obsidian/workspace.json

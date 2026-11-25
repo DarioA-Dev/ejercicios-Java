@@ -30,8 +30,6 @@ Contexto del repositorio académico de un estudiante de 1º DAM. Léelo antes de
 └── VisualStudio/                 # este vault de Obsidian
 ```
 
-`El-nexo-COMMIT/` es un proyecto independiente que está en `.gitignore`; no forma parte del repositorio académico.
-
 ## Asignaturas
 
 | Asignatura | Carpeta | Qué hay |
