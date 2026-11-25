@@ -1,11 +1,9 @@
-# Lenguajes de marcas
+# Rama `lenguaje-marcas` (archivada)
 
-Prácticas de la asignatura de lenguajes de marcas. Es una carpeta de aprendizaje: una página HTML sencilla (`lenguje_de_marca/index.html`) con su hoja de estilos (`main.css`) y una imagen de apoyo (`img1.jpg`), donde se van probando etiquetas y propiedades básicas.
+> **Esta rama ya no se usa.** Las prácticas de Lenguaje de Marcas están en la rama [`main`](https://github.com/DarioA-Dev/ejercicios-Java/tree/main/Lenguaje-de-Marcas), carpeta `Lenguaje-de-Marcas/`.
+> Se conserva para que sigan funcionando los enlaces antiguos.
 
-De momento incluye:
+Equivalencias:
 
-- Un título y un párrafo de texto.
-- Una tabla con un par de filas de ejemplo.
-- Una imagen dentro de la tabla, con una clase CSS aplicada.
-
-Para verla, basta con abrir `lenguje_de_marca/index.html` en el navegador.
+- `lenguje_de_marca/` → `Lenguaje-de-Marcas/01-fundamentos-html/01-primera-practica/`
+- `lenguaje_de_marca/primera_web/` → `Lenguaje-de-Marcas/02-css/01-primera-web/` (aquí está una versión anterior del HTML)
