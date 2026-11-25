@@ -3,7 +3,7 @@
 Código Java de dos asignaturas, cada una en su carpeta:
 
 - [`programacion/`](programacion/) — **Programación**: ejercicios y tareas de Teams ordenados por bloques (fundamentos, condicionales, switch, bucles, POO, arrays...). El índice está en su [README](programacion/README.md).
-- [`entorno/`](entorno/) — **Entornos de Desarrollo**: proyecto de POO con herencia (`01-poo-personaje`), con su propia explicación en `EXPLICACION.md`.
+- [`entorno/`](entorno/) — **Entornos de Desarrollo**: proyecto de POO con herencia ([`01-poo-personaje`](entorno/01-poo-personaje/), con su explicación en `EXPLICACION.md`) y los apuntes del tema 1 en HTML ([`apuntes/tema1-entornos-de-desarrollo.html`](entorno/apuntes/tema1-entornos-de-desarrollo.html), se abre en el navegador).
 
 ## Abrir en VS Code
 
