@@ -10,7 +10,6 @@ Nota de entrada del vault. Desde aquí se llega a todo.
 
 - [[Java]]
 - [[Lenguaje de Marcas]]
-- [[TCL-II]]
 
 ## Otros
 

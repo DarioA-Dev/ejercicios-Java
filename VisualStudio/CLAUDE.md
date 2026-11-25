@@ -3,7 +3,7 @@
 Este `CLAUDE.md` es el contexto que debe leer cualquier IA (Claude Code u otra)
 antes de crear, mover o reorganizar notas en este vault. El objetivo del vault
 es llevar apuntes de las asignaturas cuyo código vive en las carpetas hermanas
-del repo (`../Java`, `../tareas_clas`, `../TCL-II`, etc.).
+del repo (`../Java`, `../tareas_clas`, etc.).
 
 ## Estructura de carpetas
 
@@ -15,10 +15,8 @@ VisualStudio/
 ├── 01 Asignaturas/
 │   ├── Java/
 │   │   └── Java.md            # MOC de la asignatura (índice de sus notas)
-│   ├── Lenguaje de Marcas/
-│   │   └── Lenguaje de Marcas.md
-│   └── TCL-II/
-│       └── TCL-II.md
+│   └── Lenguaje de Marcas/
+│       └── Lenguaje de Marcas.md
 ├── 02 Plantillas/             # Plantillas del plugin "Templates" (core)
 └── 03 Recursos/               # Adjuntos: imágenes, PDFs, capturas
 ```
@@ -69,9 +67,6 @@ en vez de escribir la estructura a mano.
 
 - Antes de crear una nota, comprobar si ya existe un MOC de esa asignatura en
   `01 Asignaturas/`; si no existe, crearlo primero y enlazarlo desde `Indice.md`.
-- Nunca fusionar `TCL-II/` (nota del vault) con la carpeta `../TCL-II` del repo:
-  esta última es un proyecto de código grande e independiente (no apuntes de
-  clase), se referencia pero no se documenta nota a nota.
 - Mantener `Indice.md` como único punto de entrada: cualquier MOC de asignatura
   nueva debe quedar enlazado ahí.
 - No usar plugins de IA de Obsidian (Smart Connections, Copilot, etc.): este
