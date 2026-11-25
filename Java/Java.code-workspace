@@ -1,0 +1,23 @@
+{
+	// Abrir con: File > Open Workspace from File... > Java/Java.code-workspace
+	// Cada carpeta de ejercicio tiene su .project/.classpath y la extension de Java
+	// (redhat.java) la importa como proyecto independiente.
+	"folders": [
+		{ "path": "programacion", "name": "Programación" },
+		{ "path": "entorno", "name": "Entornos de Desarrollo" }
+	],
+	"settings": {
+		"java.configuration.runtimes": [
+			{
+				"name": "JavaSE-24",
+				"path": "C:\Program Files\Java\jdk-24",
+				"default": true
+			}
+		],
+		"files.exclude": {
+			"**/bin": true,
+			"**/out": true,
+			"**/.settings": true
+		}
+	}
+}
