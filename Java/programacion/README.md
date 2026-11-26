@@ -70,7 +70,7 @@ Ejercicios y tareas de la asignatura de Programación, ordenados por bloques en 
 | Carpeta | Archivo | Tarea de Teams |
 |---|---|---|
 | [01-tarea-arrays](07-arrays/01-tarea-arrays/) | `EjerciciosArrays.java` (los 6 ejercicios, "Paso 1" a "Paso 6") | **ARRAYS** |
-| [02-tarea-arrays2](07-arrays/02-tarea-arrays2/) | `Ejercicio1ArraysIguales` … `Ejercicio5DiferenciaMayorMenor` | **ARRAYS2** |
+| [02-tarea-arrays2](07-arrays/02-tarea-arrays2/) | `EjerciciosArrays2` | **ARRAYS2** |
 
 ### [90-practicas-personales](90-practicas-personales/)
 
